@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:background="#000000"
+  tools:context="com.example.hangmangame.MainActivity">
+
+  <LinearLayout
+    android:layout_width="0dp"
+    android:layout_height="0dp"
+    android:layout_marginBottom="8dp"
+    android:layout_marginLeft="8dp"
+    android:layout_marginRight="8dp"
+    android:layout_marginTop="8dp"
+    android:orientation="vertical"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintLeft_toLeftOf="parent"
+    app:layout_constraintRight_toRightOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    android:layout_marginStart="8dp"
+    android:layout_marginEnd="8dp">
+
+    <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_weight="1"
+      android:orientation="vertical">
+
+      <ImageView
+        android:id="@+id/img_face"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.9"
+        app:srcCompat="@mipmap/ic_launcher"/>
+
+      <TextView
+        android:id="@+id/txt_word"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dip"
+        android:layout_weight="0.1"
+        android:gravity="center"
+        android:text="-------------------"
+        android:textColor="#ffffff"
+        android:textSize="30dip"
+        android:typeface="monospace"/>
+    </LinearLayout>
+
+    <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="vertical">
+
+      <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+          android:id="@+id/txt_a"
+          style="@style/TextWiew"
+          android:layout_margin="4dip"
+          android:width="1dp"
+          android:text="A"
+          android:textSize="30dip"/>
+
+        <TextView
+          android:id="@+id/txt_b"
+          style="@style/TextWiew"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_margin="4dip"
+          android:width="1dp"
+          android:text="B"
+          android:textSize="30dip"/>
+
+        <TextView
+          android:id="@+id/txt_c"
+          style="@style/TextWiew"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_margin="4dip"
+          android:width="1dp"
+          android:text="C"
+          android:textSize="30dip"/>
+
+        <TextView
+          android:id="@+id/txt_d"
+          style="@style/TextWiew"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_margin="4dip"
+          android:width="1dp"
+          android:text="D"
+          android:textSize="30dip"/>
+
+        <TextView
+          android:id="@+id/txt_e"
+          style="@style/TextWiew"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_margin="4dip"
+          android:width="1dp"
+          android:text="E"
+          android:textSize="30dip"/>
+
+        <TextView
+          android:id="@+id/txt_f"
+          style="@style/TextWiew"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_margin="4dip"
+          android:width="1dp"
+          android:text="F"
+          android:textSize="30dip"/>
+      </LinearLayout>
+
+      <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+          android:id="@+id/txt_g"
+          style="@style/TextWiew"
+          android:layout_margin="4dip"
+          android:width="1dp"
+          android:text="G"
+          android:textSize="30dip"/>
+
+        <TextView
+          android:id="@+id/txt_h"
+          style="@style/TextWiew"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_margin="4dip"
+          android:width="1dp"
+          android:text="H"
+          android:textSize="30dip"/>
+
+        <TextView
+          android:id="@+id/txt_i"
+          style="@style/TextWiew"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_margin="4dip"
+          android:width="1dp"
+          android:text="I"
+          android:textSize="30dip"/>
+
+        <TextView
+          android:id="@+id/txt_j"
+          style="@style/TextWiew"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_margin="4dip"
+          android:width="1dp"
+          android:text="J"
+          android:textSize="30dip"/>
+
+        <TextView
+          android:id="@+id/txt_k"
+          style="@style/TextWiew"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_margin="4dip"
+          android:width="1dp"
+          android:text="K"
+          android:textSize="30dip"/>
+
+        <TextView
+          android:id="@+id/txt_l"
+          style="@style/TextWiew"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_margin="4dip"
+          android:width="1dp"
+          android:text="L"
+          android:textSize="30dip"/>
+      </LinearLayout>
+
+      <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+          android:id="@+id/txt_m"
+          style="@style/TextWiew"
+          android:layout_margin="4dip"
+          android:width="1dp"
+          android:text="M"
+          android:textSize="30dip"/>
+
+        <TextView
+          android:id="@+id/txt_n"
+          style="@style/TextWiew"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_margin="4dip"
+          android:width="1dp"
+          android:text="N"
+          android:textSize="30dip"/>
+
+        <TextView
+          android:id="@+id/txt_o"
+          style="@style/TextWiew"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_margin="4dip"
+          android:width="1dp"
+          android:text="O"
+          android:textSize="30dip"/>
+
+        <TextView
+          android:id="@+id/txt_p"
+          style="@style/TextWiew"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_margin="4dip"
+          android:width="1dp"
+          android:text="P"
+          android:textSize="30dip"/>
+
+        <TextView
+          android:id="@+id/txt_q"
+          style="@style/TextWiew"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_margin="4dip"
+          android:width="1dp"
+          android:text="Q"
+          android:textSize="30dip"/>
+
+        <TextView
+          android:id="@+id/txt_r"
+          style="@style/TextWiew"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_margin="4dip"
+          android:width="1dp"
+          android:text="R"
+          android:textSize="30dip"/>
+      </LinearLayout>
+
+      <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+          android:id="@+id/txt_s"
+          style="@style/TextWiew"
+          android:layout_margin="4dip"
+          android:width="1dp"
+          android:text="S"
+          android:textSize="30dip"/>
+
+        <TextView
+          android:id="@+id/txt_t"
+          style="@style/TextWiew"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_margin="4dip"
+          android:width="1dp"
+          android:text="T"
+          android:textSize="30dip"/>
+
+        <TextView
+          android:id="@+id/txt_u"
+          style="@style/TextWiew"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_margin="4dip"
+          android:width="1dp"
+          android:text="U"
+          android:textSize="30dip"/>
+
+        <TextView
+          android:id="@+id/txt_v"
+          style="@style/TextWiew"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_margin="4dip"
+          android:width="1dp"
+          android:text="V"
+          android:textSize="30dip"/>
+
+        <TextView
+          android:id="@+id/txt_w"
+          style="@style/TextWiew"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_margin="4dip"
+          android:width="1dp"
+          android:text="W"
+          android:textSize="30dip"/>
+
+        <TextView
+          android:id="@+id/txt_x"
+          style="@style/TextWiew"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_margin="4dip"
+          android:width="1dp"
+          android:text="X"
+          android:textSize="30dip"/>
+      </LinearLayout>
+
+      <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+          android:id="@+id/txt_y"
+          style="@style/TextWiew"
+          android:layout_margin="4dip"
+          android:width="1dp"
+          android:text="Y"
+          android:textSize="30dip"/>
+
+        <TextView
+          android:id="@+id/txt_z"
+          style="@style/TextWiew"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_margin="4dip"
+          android:width="1dp"
+          android:text="Z"
+          android:textSize="30dip"/>
+
+        <TextView
+          style="@style/TextWiew"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_margin="4dip"
+          android:width="1dp"
+          android:background="#000000"
+          android:textSize="30dip"/>
+
+        <TextView
+          style="@style/TextWiew"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_margin="4dip"
+          android:width="1dp"
+          android:background="#000000"
+          android:textSize="30dip"/>
+
+        <TextView
+          style="@style/TextWiew"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_margin="4dip"
+          android:width="1dp"
+          android:background="#000000"
+          android:textSize="30dip"/>
+
+        <TextView
+          style="@style/TextWiew"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_margin="4dip"
+          android:width="1dp"
+          android:background="#000000"
+          android:textSize="30dip"/>
+      </LinearLayout>
+
+    </LinearLayout>
+  </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
